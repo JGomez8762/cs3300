@@ -1,0 +1,2 @@
+class Poject < ApplicationRecord
+end
