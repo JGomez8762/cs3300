@@ -28,6 +28,14 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
+# rspec addition
+# gem 'libv8-node', '~> 15.14', '>= 15.14.0.1'
+# gem 'mini_racer'
+gem 'mini_racer', platforms: :ruby
+
+# Simplecov
+gem 'simplecov', require: false, group: :test
+
 group :production do
   # gem 'pg', '~> 0.21' # for Heroku deployment
   gem 'pg' # for Heroku deployment
@@ -39,6 +47,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~> 1.4'
+  gem 'rspec-rails', '~> 3.7'
+  # gem 'rspec-rails'
+  # gem 'capybara' # already installed
 end
 
 group :development do

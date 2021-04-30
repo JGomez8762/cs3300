@@ -1,2 +1,0 @@
-class ProjectPage < ApplicationRecord
-end
