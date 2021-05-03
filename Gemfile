@@ -36,6 +36,9 @@ gem 'mini_racer', platforms: :ruby
 # Simplecov
 gem 'simplecov', require: false, group: :test
 
+# Devise gem install
+gem 'devise'
+
 group :production do
   # gem 'pg', '~> 0.21' # for Heroku deployment
   gem 'pg' # for Heroku deployment
